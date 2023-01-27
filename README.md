@@ -22,8 +22,7 @@ Enter the code for admin.py and model.py
 Execute Django admin and create  10 employees 
 
 ## PROGRAM
-
-'''
+```
 
 Model.py
 
@@ -44,11 +43,11 @@ from django.contrib import admin
 from .models import Employee,EmployeeAdmin
 admin.site.register(Employee,EmployeeAdmin)
 
-'''
+```
 
 ## OUTPUT
 
-![OUTPUT](./py.png)
+![OUTPUT](./out.png)
 
 ## RESULT
 
